@@ -1,4 +1,4 @@
-function estudanteReprovou (notaFinal, faltas) {
+const estudanteReprovou = function (notaFinal, faltas) {
     if(notaFinal < 7 && faltas > 4) {
         console.log('reprovado');
         return true;
